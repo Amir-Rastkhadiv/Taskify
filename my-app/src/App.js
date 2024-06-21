@@ -1,12 +1,18 @@
+// src/App.js
 import React from 'react';
-import './App.css';
+import CalendarComponent from './components/Calendar';
+import TaskForm from './components/TaskForm';
 
 function App() {
     return ( <
-        div className = "app-container" >
+        div >
         <
-        h1 > Welcome to Taskify! < /h1> <
-        /div> / / Make sure to close the div element
+        h1 > My Calendar App < /h1> <
+        CalendarComponent / >
+        <
+        TaskForm / >
+        <
+        /div>
     );
 }
 
